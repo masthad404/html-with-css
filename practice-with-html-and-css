@@ -1,0 +1,102 @@
+###HTML tags:###
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+    <div class="doboz">
+
+    <h1> A nagy doboz </h1>
+
+    <p > A nagy doboz tartalama íme ez </p>
+
+    </div>
+
+    <div class="csuka">
+
+        <b>
+
+        <h1> A másik nagy doboz </h1>
+
+        <h2 >Ez egy nagy doboz! </h2>
+        
+        <p> Ez a doboz más mint a többi!Ez a doboz egy Doboz nagy D-vel!Doboz. </p>
+
+        </b>
+
+
+    </div>
+
+
+
+</body>
+</html>
+
+
+###ASSOCIATED CSS:###
+
+.doboz {
+
+    width: 300px;
+
+    height: 300px;
+
+    background-color: aqua;
+
+    background: right url('https://images.unsplash.com/photo-1542044896530-05d85be9b11a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+    color: black;
+
+    border-color: chocolate;
+
+    border-width: 2px;
+
+    border-style: solid;
+
+    border-radius: 10px;
+
+    margin-right: 7px;
+
+    padding: 20px;
+
+}
+
+.csuka {
+
+    height: 200px;
+
+    background-color: chocolate;
+
+    width: 400px;
+
+    color: aqua;
+
+    border-width: 10px;
+
+    border: black;
+
+    border-radius: 20px;
+
+    position: absolute ;
+
+
+}
+
+
+body {
+
+background-color: cadetblue;
+font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+
+
+}
+
+###END###
+
